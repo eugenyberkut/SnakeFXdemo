@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="snake.controller.Controller">
+   <center>
+      <Pane fx:id="pane" prefHeight="400.0" prefWidth="448.0" BorderPane.alignment="CENTER">
+         <children>
+            <Canvas fx:id="canvas" height="406.0" width="451.0" />
+         </children>
+      </Pane>
+   </center>
+   <right>
+      <VBox prefHeight="400.0" prefWidth="110.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>
