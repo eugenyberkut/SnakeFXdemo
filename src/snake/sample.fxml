@@ -11,13 +11,13 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="snake.controller.Controller">
    <center>
-      <Pane fx:id="pane" prefHeight="400.0" prefWidth="448.0" BorderPane.alignment="CENTER">
+      <Pane fx:id="pane" focusTraversable="true" onKeyPressed="#processKey" prefHeight="400.0" prefWidth="448.0" BorderPane.alignment="CENTER">
          <children>
             <Canvas fx:id="canvas" height="406.0" width="451.0" />
          </children>
       </Pane>
    </center>
    <right>
-      <VBox prefHeight="400.0" prefWidth="110.0" BorderPane.alignment="CENTER" />
+      <VBox prefHeight="400.0" prefWidth="110.0" style="-fx-background-color: WHITESMOKE;" BorderPane.alignment="CENTER" />
    </right>
 </BorderPane>
